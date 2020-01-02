@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/image_button_start"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/start_button"
+        android:contentDescription="@string/todo"
+        android:onClick="startGame" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_button_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/start_game"
+        android:textColor="#ffff"
+        android:textSize="30sp" />
+
+</RelativeLayout>
